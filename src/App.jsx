@@ -29,7 +29,7 @@ const App = () => {
         <Projects />
 
         <div
-          className="bg-experience bg-cover bg-center bg-no-repeat 
+          className="bg-experience bg-cover bg-center bg-no-repeat bg-experienceLight2
             rounded-tl-[150px] rounded-br-[150px]">
           <div
             className="bg-experienceLight bg-cover bg-center 

@@ -45,6 +45,10 @@ import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
+import healthhub from './company/healthhub.png';
+import rogers from './company/rogers.png';
+import rbc from './company/rbc.png';
+
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
 import math from './projects/math-magicians.png';
@@ -100,4 +104,7 @@ export {
   dcc,
   kelhel,
   microverse,
+  healthhub,
+  rogers,
+  rbc,
 };
