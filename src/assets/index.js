@@ -3,7 +3,7 @@ import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import toronto from './backgrounds/toronto.png';
 
-import logo from './logo/logo-black.png';
+import logo from './logo/logo.png';
 import logotext from './logo/logo-text-black.png';
 
 import shaq from './personal/shaq.png';
