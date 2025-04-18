@@ -123,11 +123,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: 'Senior Full Stack Developer',
+    company_name: 'Royal Bank of Canada',
+    icon: rbc,
+    iconBg: '#292929',
+    date: 'Sept 2024 - Present',
+  },
+  {
     title: 'Senior Software Developer',
     company_name: 'Royal Bank of Canada',
     icon: rbc,
     iconBg: '#292929',
-    date: 'Jan 2023 - Present',
+    date: 'Jan 2023 - Sept 2024',
   },
   {
     title: 'Software Developer @ Amplify',
