@@ -7,7 +7,7 @@ import { shaq, bwmap, toronto } from '../assets';
 const Hero = () => {
   return (
     <>
-      <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen bg-white">
+      <div className="absolute top-0 left-0 z-0 h-[100vh] max-w-full w-screen bg-white overflow-hidden">
         <img
           src={bwmap}
           alt="toronto"

@@ -1,32 +1,31 @@
 import {
   frontend,
   backend,
+  api,
   documentation,
+  java,
+  python,
+  c_sharp,
+  swift,
   javascript,
   typescript,
-  html,
-  css,
+  angular,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
-  git,
-  figma,
+  jenkins,
   docker,
   postgresql,
-  rubyrails,
-  graphql,
+  mongo,
+  git,
+  makeme,
   komikult,
   leaderboard,
   math,
   movie,
   nyeusi,
-  space,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
-  api,
+  healthhub,
+  rogers,
+  rbc,
 } from '../assets';
 
 export const navLinks = [
@@ -65,12 +64,20 @@ const services = [
 
 const technologies = [
   {
-    name: 'HTML 5',
-    icon: html,
+    name: 'Java',
+    icon: java,
   },
   {
-    name: 'CSS 3',
-    icon: css,
+    name: 'Python',
+    icon: python,
+  },
+  {
+    name: 'C#',
+    icon: c_sharp,
+  },
+  {
+    name: 'Swift',
+    icon: swift,
   },
   {
     name: 'JavaScript',
@@ -81,81 +88,103 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: 'Angular',
+    icon: angular,
+  },
+  {
     name: 'React JS',
     icon: reactjs,
-  },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
   },
   {
     name: 'Node JS',
     icon: nodejs,
   },
   {
-    name: 'Rails',
-    icon: rubyrails,
+    name: 'Jenkins',
+    icon: jenkins,
   },
   {
-    name: 'graphql',
-    icon: graphql,
+    name: 'docker',
+    icon: docker,
   },
   {
     name: 'postgresql',
     icon: postgresql,
   },
   {
+    name: 'MongoDB',
+    icon: mongo,
+  },
+  {
     name: 'git',
     icon: git,
-  },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
-    iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    title: 'Senior Full Stack Developer',
+    company_name: 'Royal Bank of Canada',
+    icon: rbc,
+    iconBg: '#292929',
+    date: 'Sept 2024 - Present',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    title: 'Senior Software Developer',
+    company_name: 'Royal Bank of Canada',
+    icon: rbc,
+    iconBg: '#292929',
+    date: 'Jan 2023 - Sept 2024',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    title: 'Software Developer @ Amplify',
+    company_name: 'Royal Bank of Canada',
+    icon: rbc,
+    iconBg: '#292929',
+    date: 'May 2022 - Aug 2022',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    title: 'Business & Data Analyst',
+    company_name: 'Rogers Communication',
+    icon: rogers,
+    iconBg: '#292929',
+    date: 'Sep 2021 - Dec 2021',
+  },
+  {
+    title: 'Infrastructure & Security Analyst',
+    company_name: 'HealthHub Patient Engagement Solutions',
+    icon: healthhub,
+    iconBg: '#292929',
+    date: 'Jan 2021 - Apr 2021',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
+    name: 'MakeMe!',
+    description:
+      'A mobile app that allows users to choose a make-up filter and view the tutorial on how to achieve that look.',
+    tags: [
+      {
+        name: 'flutter',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: makeme,
+    repo: 'https://bitbucket.org/mhserrao/capstone-flutter/src/master/',
+    demo: 'https://www.youtube.com/watch?v=syverg0CXnc&ab_channel=FlutterArt',
+  },
+  {
+    id: 'project-10',
     name: 'KomiKult',
     description: 'A comic characters list app that displays Marvel characters.',
     tags: [
