@@ -17,6 +17,7 @@ import {
   postgresql,
   mongo,
   git,
+  makeme,
   komikult,
   leaderboard,
   math,
@@ -154,6 +155,29 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
+    name: 'MakeMe!',
+    description:
+      'A mobile app that allows users to choose a make-up filter and view the tutorial on how to achieve that look.',
+    tags: [
+      {
+        name: 'flutter',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: makeme,
+    repo: 'https://bitbucket.org/mhserrao/capstone-flutter/src/master/',
+    demo: 'https://www.youtube.com/watch?v=syverg0CXnc&ab_channel=FlutterArt',
+  },
+  {
+    id: 'project-10',
     name: 'KomiKult',
     description: 'A comic characters list app that displays Marvel characters.',
     tags: [

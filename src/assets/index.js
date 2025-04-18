@@ -44,6 +44,8 @@ import healthhub from './company/healthhub.png';
 import rogers from './company/rogers.png';
 import rbc from './company/rbc.png';
 
+import makeme from './projects/makeme.png';
+
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
 import math from './projects/math-magicians.png';
@@ -88,6 +90,7 @@ export {
   postgresql,
   mongo,
   git,
+  makeme,
   komikult,
   leaderboard,
   math,
