@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,11 +8,6 @@
 @font-face {
   font-family: 'Arenq';
   src: url('./fonts/arenq.otf');
-}
-
-@font-face {
-  font-family: 'Mova';
-  src: url('./fonts/mova.otf');
 }
 
 @font-face {
@@ -65,12 +61,6 @@
   margin-left: -20px;
   font-size: 95px;
   letter-spacing: -2px;
-}
-
-.hero-heading {
-  font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
 }
 
 .hash-span {
