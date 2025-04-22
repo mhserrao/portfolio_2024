@@ -39,7 +39,7 @@ const Hero = () => {
               className={`${styles.heroHeadText} text-eerieBlack font-opensans uppercase`}>
               Hello, I'm{' '}
               <span
-                className="sm:text-battleGray sm:text-[90px] 
+                className="sm:text-royalPurple sm:text-[90px] 
                 text-eerieBlack text-[50px] font-a font-montserrat
                 font-extrabold uppercase">
                 mhserrao
