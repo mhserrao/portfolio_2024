@@ -12,8 +12,6 @@ export default {
         "black-200": "#090325",
         "white-100": "#f3f3f3",
         flashWhite: "#f4f4f6",
-        platinum: "#e6e6e9",
-        platinumLight: "#f4f4f5",
         timberWolf: "#d4d4d8",
         taupe: "#9999a1",
         silver: "#d6d6d6",
@@ -27,6 +25,10 @@ export default {
         richBlack: "#2e2e2e",
         eerieBlack: "#1f1f1f",
         onyx: "#5b5b5b",
+        amethyst: "#a06cd5", // 160, 108, 213
+        royalPurple: "#6247aa", // 98, 71, 170
+        prussianBlue: "#1e1e2f", // 30, 30, 47
+        thistle: "#e2cfea", // 226, 207, 234
       },
       boxShadow: {
         card: "0px 35px 120px -15px #1f1f1f",
@@ -54,15 +56,15 @@ export default {
         hero: "linear-gradient(135deg, rgba(244,244,246,0.8) 60%, rgba(173, 176, 192, 0.8) 60%)",
         "hero-mobile":
           "linear-gradient(137deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,1) 60%)",
-        tech: "linear-gradient(165deg, rgba(20,20,20,0.8) 100%, rgba(109,109,116,0.8) 100%), url('/src/assets/backgrounds/toronto-view.jpeg')",
+        tech: "linear-gradient(165deg, rgba(30, 30, 47,0.8) 100%, rgba(30,30,47,0.8) 100%), url('/src/assets/backgrounds/toronto-view.jpeg')",
       },
       fontFamily: {
         arenq: ["Arenq"],
         beckman: ["Beckman"],
-        mova: ["Mova"],
         overcameBold: ["Overcame Bold"],
         overcameOutline: ["Overcame Outline"],
-        poppins: ["Poppins", "sans-serif"],
+        openSans: ["Open Sans"],
+        montserrat: ["Montserrat"],
       },
     },
   },
