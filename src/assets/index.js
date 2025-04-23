@@ -18,8 +18,8 @@ import github from './icons/github.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
 import downloadHover from './icons/downloadHover.png';
-import pineapple from './icons/pineapple.png';
-import pineappleHover from './icons/pineappleHover.png';
+import cat from './icons/cat.png';
+import catHover from './icons/catHover.png';
 import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
@@ -70,8 +70,8 @@ export {
   close,
   download,
   downloadHover,
-  pineapple,
-  pineappleHover,
+  cat,
+  catHover,
   menu,
   resume,
   send,
