@@ -21,7 +21,7 @@ export default {
         night: "#141414",
         jet: "#292929",
         jetLight: "#333333",
-        jetGray: "#6d6d74",
+        jetGray: "#6d6d74", // 109, 109, 116
         richBlack: "#2e2e2e",
         eerieBlack: "#1f1f1f",
         onyx: "#5b5b5b",
@@ -55,7 +55,7 @@ export default {
           "linear-gradient(168deg, rgba(244,244,246,0.5) 60%, rgba(10,10,10,0.9) 60%)",
         hero: "linear-gradient(135deg, rgba(244,244,246,0.8) 60%, rgba(173, 176, 192, 0.8) 60%)",
         "hero-mobile":
-          "linear-gradient(137deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,1) 60%)",
+          "linear-gradient(137deg, rgba(244,244,246,0.8) 60%, rgba(226, 207, 234,1) 60%)",
         tech: "linear-gradient(165deg, rgba(30, 30, 47,0.8) 100%, rgba(30,30,47,0.8) 100%), url('/src/assets/backgrounds/toronto-view.jpeg')",
       },
       fontFamily: {
