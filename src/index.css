@@ -6,11 +6,6 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Arenq';
-  src: url('./fonts/arenq.otf');
-}
-
-@font-face {
   font-family: 'Beckman';
   src: url('./fonts/beckman.otf');
 }
@@ -47,19 +42,32 @@
   width: 70%;
 }
 
-#about {
-  margin-left: -24px;
+#about-wrapper{
+  margin-left: 24px;
   font-size: 100px;
 }
 
-#projects {
+#projects-wrapper{
   margin-left: -2px;
   font-size: 100px;
 }
 
-#contact {
+#contact-wrapper{
   margin-left: -20px;
   font-size: 95px;
+  letter-spacing: -2px;
+}
+
+#about {
+  margin-left: -24px;
+}
+
+#projects {
+  margin-left: -2px;
+}
+
+#contact {
+  margin-left: -20px;
   letter-spacing: -2px;
 }
 

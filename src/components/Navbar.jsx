@@ -61,21 +61,21 @@ const Navbar = () => {
                 <img
                   src={close}
                   alt="close"
-                  className="w-[22px] h-[22px] object-contain cursor-pointer"
+                  className="w-[20px] h-[20px] object-contain cursor-pointer mt-[18px]"
                   onClick={() => setToggle(!toggle)}
                 />
               </div>
               <ul
                 className="list-none flex flex-col -gap-[1rem] 
-                items-start justify-end mt-[10rem] -ml-[35px]"
+                items-center justify-evenly h-full"
               >
                 {navLinks.map((nav) => (
                   <li
                     id={nav.id}
                     key={nav.id}
                     className={`${
-                      active === nav.title ? 'text-french' : 'text-eerieBlack'
-                    } text-[88px] font-bold font-arenq 
+                      active === nav.title ? 'text-royalPurple' : 'text-eerieBlack'
+                    } text-[45px] font-bold font-montserrat mt-[12px]
                       uppercase tracking-[1px] cursor-pointer`}
                     onClick={() => {
                       setToggle(!toggle);
