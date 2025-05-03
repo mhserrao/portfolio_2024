@@ -47,6 +47,17 @@
   font-size: 100px;
 }
 
+#projects-wrapper{
+  margin-left: -2px;
+  font-size: 100px;
+}
+
+#contact-wrapper{
+  margin-left: -20px;
+  font-size: 95px;
+  letter-spacing: -2px;
+}
+
 #about {
   margin-left: -24px;
 }
