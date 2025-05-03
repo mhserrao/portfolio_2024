@@ -74,7 +74,7 @@ const Navbar = () => {
                     id={nav.id}
                     key={nav.id}
                     className={`${
-                      active === nav.title ? 'text-amethyst' : 'text-eerieBlack'
+                      active === nav.title ? 'text-royalPurple' : 'text-eerieBlack'
                     } text-[45px] font-bold font-montserrat mt-[12px]
                       uppercase tracking-[1px] cursor-pointer`}
                     onClick={() => {
