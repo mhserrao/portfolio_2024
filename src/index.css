@@ -43,33 +43,17 @@
 }
 
 #about{
-  margin-left: 24px;
-  font-size: 100px;
+  font-size: 3rem;
 }
 
 #projects{
-  margin-left: -2px;
-  font-size: 100px;
+  font-size: 3rem;
 }
 
 #contact{
-  margin-left: -20px;
-  font-size: 95px;
+  font-size: 3rem;
   letter-spacing: -2px;
 }
-
-/* #about {
-  margin-left: -24px;
-}
-
-#projects {
-  margin-left: -2px;
-}
-
-#contact {
-  margin-left: -20px;
-  letter-spacing: -2px;
-} */
 
 .hash-span {
   margin-top: -100px;
