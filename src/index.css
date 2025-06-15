@@ -42,23 +42,23 @@
   width: 70%;
 }
 
-#about-wrapper{
+#about{
   margin-left: 24px;
   font-size: 100px;
 }
 
-#projects-wrapper{
+#projects{
   margin-left: -2px;
   font-size: 100px;
 }
 
-#contact-wrapper{
+#contact{
   margin-left: -20px;
   font-size: 95px;
   letter-spacing: -2px;
 }
 
-#about {
+/* #about {
   margin-left: -24px;
 }
 
@@ -69,7 +69,7 @@
 #contact {
   margin-left: -20px;
   letter-spacing: -2px;
-}
+} */
 
 .hash-span {
   margin-top: -100px;
