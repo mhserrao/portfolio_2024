@@ -59,7 +59,6 @@ export default {
         tech: "linear-gradient(165deg, rgba(30, 30, 47,0.8) 100%, rgba(30,30,47,0.8) 100%), url('/src/assets/backgrounds/toronto-view.jpeg')",
       },
       fontFamily: {
-        arenq: ["Arenq"],
         beckman: ["Beckman"],
         overcameBold: ["Overcame Bold"],
         overcameOutline: ["Overcame Outline"],
