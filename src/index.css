@@ -42,32 +42,16 @@
   width: 70%;
 }
 
-#about-wrapper{
-  margin-left: 24px;
-  font-size: 100px;
+#about{
+  font-size: 3rem;
 }
 
-#projects-wrapper{
-  margin-left: -2px;
-  font-size: 100px;
+#projects{
+  font-size: 3rem;
 }
 
-#contact-wrapper{
-  margin-left: -20px;
-  font-size: 95px;
-  letter-spacing: -2px;
-}
-
-#about {
-  margin-left: -24px;
-}
-
-#projects {
-  margin-left: -2px;
-}
-
-#contact {
-  margin-left: -20px;
+#contact{
+  font-size: 3rem;
   letter-spacing: -2px;
 }
 
