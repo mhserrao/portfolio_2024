@@ -1,17 +1,17 @@
-import { useState, useRef } from 'react';
-import { motion } from 'framer-motion';
-import emailjs from '@emailjs/browser';
-import { styles } from '../styles';
-import { SectionWrapper } from '../hoc';
-import { slideIn } from '../utils/motion';
-import { send, sendHover } from '../assets';
+import { useState, useRef } from "react";
+import { motion } from "framer-motion";
+import emailjs from "@emailjs/browser";
+import { styles } from "../styles";
+import { SectionWrapper } from "../hoc";
+import { slideIn } from "../utils/motion";
+import { send, sendHover } from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
   const [loading, setLoading] = useState(false);
 
@@ -26,32 +26,32 @@ const Contact = () => {
     setLoading(true);
     emailjs
       .send(
-        'service_lz2lc2p',
-        'template_ui2r418',
+        "service_lz2lc2p",
+        "template_ui2r418",
         {
           from_name: form.name,
-          to_name: 'mhserrao',
+          to_name: "mhserrao",
           from_email: form.email,
-          to_email: 'mserrao279@gmail.com',
+          to_email: "mserrao279@gmail.com",
           message: form.message,
         },
-        'PUfDJ8ce_2TUBCKRp'
+        "PUfDJ8ce_2TUBCKRp"
       )
       .then(
         () => {
           setLoading(false);
-          alert('Thank you. I will get back to you as soon as possible.');
+          alert("Thank you. I will get back to you as soon as possible.");
 
           setForm({
-            name: '',
-            email: '',
-            message: '',
+            name: "",
+            email: "",
+            message: "",
           });
         },
         (error) => {
           setLoading(false);
           console.log(error);
-          alert('Something went wrong. Please try again.');
+          alert("Something went wrong. Please try again.");
         }
       );
   };
@@ -62,7 +62,7 @@ const Contact = () => {
       flex gap-10 overflow-hidden"
     >
       <motion.div
-        variants={slideIn('left', 'tween', 0.2, 1)}
+        variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[1] bg-jet p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
@@ -129,14 +129,14 @@ const Contact = () => {
             transition duration-[0.2s] ease-in-out"
             onMouseOver={() => {
               document
-                .querySelector('.contact-btn')
-                .setAttribute('src', sendHover);
+                .querySelector(".contact-btn")
+                .setAttribute("src", sendHover);
             }}
             onMouseOut={() => {
-              document.querySelector('.contact-btn').setAttribute('src', send);
+              document.querySelector(".contact-btn").setAttribute("src", send);
             }}
           >
-            {loading ? 'Sending' : 'Send'}
+            {loading ? "Sending" : "Send"}
             <img
               src={send}
               alt="send"
@@ -150,4 +150,4 @@ const Contact = () => {
   );
 };
 
-export default SectionWrapper(Contact, 'contact-wrapper');
+export default SectionWrapper(Contact, "contact");
