@@ -44,17 +44,17 @@
 
 #about{
   margin-left: 24px;
-  font-size: 100px;
+  font-size: 3rem;
 }
 
 #projects{
   margin-left: -2px;
-  font-size: 100px;
+  font-size: 3rem;
 }
 
 #contact{
   margin-left: -20px;
-  font-size: 95px;
+  font-size: 3rem;
   letter-spacing: -2px;
 }
 
