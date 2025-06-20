@@ -1,19 +1,13 @@
-import bwmap from "./backgrounds/toronto.png";
-import nairobi from "./backgrounds/nairobi.png";
 import whiteabstract from "./backgrounds/white-abstract.png";
 import toronto from "./backgrounds/toronto.png";
 
 import logo from "./logo/logo.png";
 import logotext from "./logo/logo-text-black.png";
 
-import shaq from "./personal/shaq.png";
-
 import backend from "./icons/backend.png";
-import ux from "./icons/ux.png";
 import api from "./icons/api.png";
 import documentation from "./icons/documentation.png";
 import frontend from "./icons/frontend.png";
-import prototyping from "./icons/prototyping.png";
 import github from "./icons/github.png";
 import close from "./icons/close.png";
 import download from "./icons/download.png";
@@ -47,26 +41,15 @@ import rbc from "./company/rbc.png";
 import makeme from "./projects/makeme.png";
 import breadcrumb from "./projects/breadcrumb.png";
 
-import komikult from "./projects/komikult.png";
-import leaderboard from "./projects/leaderboard.png";
-import math from "./projects/math-magicians.png";
-import movie from "./projects/movie-metro.png";
-import nyeusi from "./projects/nyeusi.png";
-
 export {
-  bwmap,
-  nairobi,
   whiteabstract,
   toronto,
   logo,
   logotext,
-  shaq,
   backend,
   api,
-  ux,
   documentation,
   frontend,
-  prototyping,
   github,
   close,
   download,
@@ -93,11 +76,6 @@ export {
   git,
   makeme,
   breadcrumb,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
   healthhub,
   rogers,
   rbc,
