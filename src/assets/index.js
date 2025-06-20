@@ -41,12 +41,6 @@ import rbc from "./company/rbc.png";
 import makeme from "./projects/makeme.png";
 import breadcrumb from "./projects/breadcrumb.png";
 
-import komikult from "./projects/komikult.png";
-import leaderboard from "./projects/leaderboard.png";
-import math from "./projects/math-magicians.png";
-import movie from "./projects/movie-metro.png";
-import nyeusi from "./projects/nyeusi.png";
-
 export {
   whiteabstract,
   toronto,
@@ -82,11 +76,6 @@ export {
   git,
   makeme,
   breadcrumb,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
   healthhub,
   rogers,
   rbc,
