@@ -24,6 +24,19 @@ import {
   rbc,
 } from "../assets";
 
+import { FaAngular, FaAndroid } from "react-icons/fa";
+import {
+  SiTailwindcss,
+  SiLeaflet,
+  SiTypescript,
+  SiFlutter,
+  SiDart,
+  SiUnity,
+  SiAdobephotoshop,
+  SiFirebase,
+} from "react-icons/si";
+import { TbMap } from "react-icons/tb";
+
 export const navLinks = [
   {
     id: "about",
@@ -162,18 +175,11 @@ const projects = [
     description:
       "A mobile app that allows users to choose a make-up filter and view the tutorial on how to achieve that look.",
     tags: [
-      {
-        name: "flutter",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "Flutter", icon: SiFlutter },
+      { name: "Dart", icon: SiDart },
+      { name: "Unity", icon: SiUnity },
+      { name: "Adobe Photoshop", icon: SiAdobephotoshop },
+      { name: "Android", icon: FaAndroid },
     ],
     image: makeme,
     repo: "https://bitbucket.org/mhserrao/capstone-flutter/src/master/",
@@ -184,7 +190,14 @@ const projects = [
     name: "Breadcrumb",
     description:
       "A personalized travel map that lets users log and visualize the countries they've visited. Currently in progress.",
-    tags: [],
+    tags: [
+      { name: "Angular", icon: FaAngular },
+      { name: "Firebase", icon: SiFirebase },
+      { name: "TailwindCSS", icon: SiTailwindcss },
+      { name: "React Leaflet", icon: SiLeaflet },
+      { name: "TypeScript", icon: SiTypescript },
+      { name: "Interactive Map", icon: TbMap },
+    ],
     image: breadcrumb,
     repo: "https://github.com/mhserrao/breadcrumb-frontend",
     demo: "https://breadcrumb-mhserrao.netlify.app/",
