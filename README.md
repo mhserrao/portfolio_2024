@@ -1,96 +1,118 @@
-# Portfolio Template
+# 🖥️ mhserrao – Developer Portfolio
 
-https://github.com/shaqdeff/Portfolio-Template/assets/92020713/eed76a82-e59d-440b-a04c-a2dc00a508b7
+Welcome to my personal portfolio! This site showcases the projects, tools, and technologies I've worked with as a Full Stack Developer. It’s built using a modern stack with thoughtful animations and interactive UI, with ongoing updates as I grow.
 
-![portfolio-phone](https://github.com/shaqdeff/Portfolio-Template/assets/92020713/e41ed31c-50e5-40d3-a74f-9c0eb053fe7f)
-![portfolio-phone-3](https://github.com/shaqdeff/Portfolio-Template/assets/92020713/e8c23aa7-ac27-48fc-bf66-50ab00e3a64f)
+## 🚀 Tech Stack
 
-I created this portfolio to use as my own but ended up doing something else entirely. However, instead of keeping it buried, I decided to put it up here on GitHub as an open-source resource to help individuals to learn, adapt, and create their own portfolios. Feel free to customize and modify the theme and components to suit your personal style and branding preferences.
+- **Frontend**: React, TailwindCSS, TypeScript
+- **Animation & 3D**: Framer Motion, Three.js (via React Three Fiber)
+- **Icons**: react-icons
+- **Deployment**: Netlify
 
-## License and Attribution
+## ✨ Live Site
 
-The code in this repository is released under the [MIT](https://github.com/shaqdeff/Portfolio-Template/blob/90213d4887074d1d29434f706afad3d12fa33f5f/MIT.md) License, which grants you the freedom to use, modify, and distribute the template as your own. However, if you choose to use the site's design largely unmodified, kindly credit me as the original designer of the site.
+🌐 [mhserrao.dev](https://mhserrao.dev)
 
-All projects and experiences included in this portfolio are the result of my own efforts and creativity. Please refrain from presenting them as your own.
+## 📂 Folder Structure
 
-## Built With
+src/
+components/ → UI building blocks (Navbar, Footer, ProjectCard, etc.)
+sections/ → Main site sections (Hero, About, Projects)
+constants/ → Project data and site-wide config
+assets/ → Custom images and icons
 
-- React.js
-- Three.js
-- Framer Motion
-- TailwindCSS
+---
 
-## Live Demo
+## 🛠️ Setup Instructions
 
-- Click [here](https://shaq-portfolio.netlify.app/) to view the live demo.
-
-## Getting Started
-
-To get started with this portfolio template, follow these simple steps:
-
-### Prerequisites
-
-Make sure you have node `16.0.0` or higher and npm `9.0.0` or higher installed.
-
-### Setup
-
-- With git, clone the code to your machine, or download a ZIP of all the files directly.
-- [Download the ZIP file from this location](https://github.com/shaqdeff/Portfolio-Template/archive/refs/heads/main.zip) or run the following [git](https://git-scm.com/) command to clone the files to your machine:
-
-```
-git clone https://github.com/shaqdeff/Portfolio-Template.git
-```
-
-- Once the files are on your machine, open the **Portfolio-Template** folder in [Visual Studio Code](https://code.visualstudio.com/download).
-
-```
-cd Portfolio-Template && code .
-```
-
-## Install
-
-- After opening the files in Visual Studio Code, open the **VS Code** integrated terminal and run the following commands:
-
-```
+```bash
+# Install dependencies
 npm install
-```
 
-This will install all the packages and dependencies used in the project.
-
-## Usage
-
-- Run the following command to start a local server:
-
-```
+# Start the dev server
 npm run dev
 ```
 
-This will open up the project on a browser on `http://localhost:5173/`
+---
 
-## Build
+## 🙏 Credits
 
-- To create a production build:
+This portfolio was originally based on a template by [Shaq](https://github.com/shaqdeff/Portfolio-Template), and has been customized and developed by mhserrao.
 
+# 🌐 mhserrao – Developer Portfolio
+
+Welcome to my personal portfolio site, built to showcase my work as a Full Stack Developer. My goal was to create a space that reflects both my technical skills and personal values - a clean, interactive, and responsive site where I can share projects, current learning, and aspirations.
+
+I built this portfolio using a modern frontend stack, with attention to smooth UI/UX, scalability, and maintainability. As I continue to grow, this portfolio will evolve alongside me.
+
+---
+
+## 🚀 Tech Stack
+
+- **Framework**: React (w/ TypeScript)
+- **Styling**: TailwindCSS
+- **Animation**: Framer Motion
+- **3D Rendering**: Three.js via React Three Fiber
+- **Hosting**: Netlify
+- **Tooling**: ESLint, Prettier, Vite
+
+---
+
+## ✨ Live Demo
+
+🔗 [mhserrao.dev](https://mhserrao.dev)
+
+This site is fully responsive and best viewed on modern browsers.
+
+---
+
+## 📁 Folder Structure
+
+```plaintext
+src/
+├── components/      # Reusable components (Footer, Navbar, ProjectCard)
+├── sections/        # Home page sections (Hero, About, Projects)
+├── constants/       # Data and config (projects list, social links)
+├── assets/          # Images, icons, and media
+├── styles/          # Global and utility styles (if needed)
+└── App.tsx          # Main application wrapper
 ```
-npm run build
+
+---
+
+## 🛠️ Getting Started
+
+To run this locally:
+
+```bash
+# Clone the repo
+git clone https://github.com/mhserrao/portfolio_2024.git
+cd portfolio_2024
+
+# Install dependencies
+npm install
+
+# Run the dev server
+npm run dev
 ```
 
-- To preview the site as it will appear once deployed:
+Make sure you have Node.js v18+ installed.
 
-```
-npm run preview
-```
+---
 
-## Authors
+## 🧱 Design Philosophy
 
-👤 **Shaquille Ndunda**
+This portfolio reflects:
 
-- GitHub: [@shaqdeff](https://github.com/shaqdeff)
-- Twitter: [@shaquillendunda](https://twitter.com/shaquillendunda)
-- LinkedIn: [Shaquille Ndunda](https://www.linkedin.com/in/shaquille-ndunda-b13a95107/)
+- **Minimalist, distraction-free layout** with soft animations and gentle spacing
+- **A focus on real projects** over volume or filler
+- **Scalability** – each component is modular and reusable for future additions
+- **Accessibility** and mobile responsiveness built-in from the start
 
-## Feedback and Contributions
+---
 
-If you have any feedback, suggestions, or would like to contribute to this project, your involvement is highly valued. Feel free to open an [issue](../../issues/) or submit a pull request with your ideas and enhancements. Remember, this template is a starting point, and the true magic lies in making it your own. Enjoy the journey of creating a stunning portfolio that represents your unique talents and accomplishments!
+## 🙏 Acknowledgements
 
-Happy coding and showcasing!
+This site was originally based on a React + Tailwind template by [Shaq](https://github.com/shaqdeff/Portfolio-Template), and has been fully customized by mhserrao. Shaq’s minimalist design provided a strong foundation to build upon with my own personality and project showcase.
+
+---
