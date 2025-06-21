@@ -8,7 +8,6 @@ import backend from "./icons/backend.png";
 import api from "./icons/api.png";
 import documentation from "./icons/documentation.png";
 import frontend from "./icons/frontend.png";
-import github from "./icons/github.png";
 import close from "./icons/close.png";
 import download from "./icons/download.png";
 import downloadHover from "./icons/downloadHover.png";
@@ -50,7 +49,6 @@ export {
   api,
   documentation,
   frontend,
-  github,
   close,
   download,
   downloadHover,

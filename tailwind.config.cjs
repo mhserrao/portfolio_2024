@@ -22,8 +22,8 @@ export default {
         jet: "#292929",
         jetLight: "#333333",
         jetGray: "#6d6d74", // 109, 109, 116
-        richBlack: "#2e2e2e",
-        eerieBlack: "#1f1f1f",
+        richBlack: "#2e2e2e", // 46, 46, 46
+        eerieBlack: "#1f1f1f", // 31, 31, 31
         onyx: "#5b5b5b",
         amethyst: "#a06cd5", // 160, 108, 213
         royalPurple: "#6247aa", // 98, 71, 170
