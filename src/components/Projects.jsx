@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
-import { github, cat, catHover } from "../assets";
+import { cat, catHover } from "../assets";
 import { projects } from "../constants";
 import { fadeIn, textVariant, staggerContainer } from "../utils/motion";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { GoLinkExternal } from "react-icons/go";
 
 const ProjectCard = ({
   id,
@@ -13,6 +15,7 @@ const ProjectCard = ({
   image,
   repo,
   demo,
+  tags,
   index,
   active,
   handleClick,
@@ -27,7 +30,7 @@ const ProjectCard = ({
       onClick={() => handleClick(id)}
     >
       <div
-        className="absolute top-0 left-0 z-10 bg-jetLight 
+        className="absolute top-0 left-0 z-10
       h-full w-full opacity-[0.5] rounded-[24px]"
       ></div>
 
@@ -41,7 +44,7 @@ const ProjectCard = ({
         <div className="flex items-center justify-start pr-[4.5rem]">
           <h3
             className="font-extrabold font-beckman uppercase w-[200px] h-[30px] 
-        whitespace-nowrap sm:text-[27px] text-[18px] text-timberWolf tracking-[1px]
+        whitespace-nowrap sm:text-[27px] text-[18px] text-white tracking-[1px]
         absolute z-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
         leading-none z-20"
           >
@@ -52,63 +55,60 @@ const ProjectCard = ({
         <>
           <div
             className="absolute bottom-0 p-8 justify-start w-full 
-            flex-col bg-[rgba(122,122,122,0.5)] rounded-b-[24px] z-20"
+            flex-col bg-[rgba(31,31,31,0.5)] rounded-b-[24px] z-20"
           >
             <div className="absolute inset-0 flex justify-end m-3">
               <div
                 onClick={() => window.open(repo, "_blank")}
-                className="bg-night sm:w-11 sm:h-11 w-10 h-10 rounded-full 
-                  flex justify-center items-center cursor-pointer
-                  sm:opacity-[0.9] opacity-[0.8]"
+                className="hover:bg-onyx bg-richBlack transition sm:w-11 sm:h-11 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
               >
-                <img
-                  src={github}
-                  alt="source code"
-                  className="w-4/5 h-4/5 object-contain"
-                />
+                <FaGithub className="w-[20px] h-[20px]" />
               </div>
             </div>
 
             <h2
               className="font-bold sm:text-[32px] text-[24px] 
-              text-timberWolf uppercase font-beckman sm:mt-0 -mt-[1rem]"
+              text-white uppercase font-beckman sm:mt-0 -mt-[1rem]"
             >
               {name}
             </h2>
             <p
-              className="text-silver sm:text-[14px] text-[12px] 
+              className="text-white sm:text-[14px] text-[12px] 
               max-w-3xl sm:leading-[24px] leading-[18px]
               font-openSans tracking-[1px]"
             >
               {description}
             </p>
             <button
-              className="live-demo flex justify-between 
-              sm:text-[16px] text-[14px] text-timberWolf 
-              font-bold font-beckman items-center py-5 pl-2 pr-3 
-              whitespace-nowrap gap-1 sm:w-[138px] sm:h-[50px] 
-              w-[125px] h-[46px] rounded-[10px] glassmorphism 
-              sm:mt-[22px] mt-[16px] hover:bg-battleGray 
-              hover:text-eerieBlack transition duration-[0.2s] 
-              ease-in-out"
-              onClick={() => window.open(demo, "_blank")}
-              onMouseOver={() => {
-                document
-                  .querySelector(".btn-icon")
-                  .setAttribute("src", catHover);
-              }}
-              onMouseOut={() => {
-                document.querySelector(".btn-icon").setAttribute("src", cat);
+              className="live-demo flex items-center justify-center 
+  sm:text-[15px] text-[13px] text-white
+  font-semibold font-beckman py-[0.9rem] px-[1rem]
+  gap-2 sm:w-[138px] sm:h-[48px] w-[125px] h-[44px] 
+  rounded-[10px] glassmorphism sm:mt-[22px] mt-[16px] 
+ hover:bg-onyx hover:text-white
+  transition duration-200 ease-in-out"
+              onClick={(e) => {
+                e.stopPropagation(); // prevent triggering card flip or selection
+                window.open(demo, "_blank", "noopener,noreferrer");
               }}
             >
-              <img
-                src={cat}
-                alt="cat"
-                className="btn-icon sm:w-[34px] sm:h-[34px] 
-                  w-[30px] h-[30px] object-contain"
-              />
-              LIVE DEMO
+              DEMO
+              <GoLinkExternal className="sm:w-[26px] sm:h-[26px] w-[22px] h-[22px]" />
             </button>
+            <div className="flex flex-wrap gap-2 mt-3">
+              {tags?.map((tag, i) => {
+                const Icon = tag.icon;
+                return (
+                  <span
+                    key={i}
+                    className={`flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold tracking-wide text-white`}
+                  >
+                    <Icon className="text-sm text-white" />
+                    {tag.name}
+                  </span>
+                );
+              })}
+            </div>
           </div>
         </>
       )}
