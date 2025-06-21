@@ -58,7 +58,7 @@ const Contact = () => {
 
   return (
     <div
-      className="-mt-[8rem] xl:flex-row flex-col-reverse 
+      className="-mt-[4rem] xl:flex-row flex-col-reverse 
       flex gap-10 overflow-hidden"
     >
       <motion.div

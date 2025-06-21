@@ -52,7 +52,7 @@ export default {
         experienceLight2:
           "linear-gradient(27deg, rgba(255,255,255,0.9) 60%, rgba(244,244,246,0.7) 60%)",
         experienceLight:
-          "linear-gradient(168deg, rgba(244,244,246,0.5) 60%, rgba(10,10,10,0.9) 60%)",
+          "linear-gradient(168deg, rgba(244,244,246,0.5) 60%, rgba(98, 71, 170,0.9) 60%)",
         hero: "linear-gradient(135deg, rgba(244,244,246,0.8) 60%, rgba(173, 176, 192, 0.8) 60%)",
         "hero-mobile":
           "linear-gradient(137deg, rgba(244,244,246,0.8) 60%, rgba(226, 207, 234,1) 60%)",
